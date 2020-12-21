@@ -1,1 +1,20 @@
 # ILLIA-VASHKEL-QA-portfolio
+
+Hello world!
+
+My name is ILLIA VASHKEL.
+
+Location: Minsk
+Email: iluich67@gmail.com
+Skype: iluich76 
+Telegram: https://t.me/cherechen
+Linkedin: www.linkedin.com/in/илья-вашкель-2972b4113
+
+Applying for a position of a Junior QA Engineer/ QA Trainee.  
+I am focused on extending my functional testing skills with no relevant commercial experience but having a strong desire for development in software testing.
+
+I am a purposeful and highly motivated person who can adjust quickly to new surroundings.
+My qualities such as sociability, flexibility and dependability make me good at teamwork. 
+I am well organized and detail oriented which I believe is a key to successfully managing responsibilities. 
+Currently I’m looking for a challenging environment where I can improve both hard and soft skills on a day-to-day basis by improving a software quality.
+My priority goal is to obtain a position in a company that offers a variety of projects with growth potential in terms of individual and professional development.

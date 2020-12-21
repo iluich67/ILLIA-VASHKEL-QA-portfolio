@@ -1,0 +1,21 @@
+Requirement tracebality matrix,,,,,,,,,,
+"Requirement tracebality matrix for ""Calculator"" application",Requirement ID,R1,R2,R3,R4,R5,R6,R7,Total  requirements amount,Requirements сoverage by test suite
+Test suites ,,,,,,,,,7,
+Checklist. Smoke test. Build 1.67,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,Checklist. Smoke test. Build 1.67,"100,00%"
+Checklist. Smoke test. Build 1.68,,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,TRUE,Checklist. Smoke test. Build 1.68,"100,00%"
+Test case С1,,TRUE,,,TRUE,,,,Test case С1,"28,57%"
+Test case С2,,TRUE,,,TRUE,,,,Test case С2,"28,57%"
+Test case С3,,TRUE,,,TRUE,TRUE,,,Test case С3,"42,86%"
+Test case С4,,TRUE,,,TRUE,,,,Test case С4,"28,57%"
+Test case С5,,TRUE,,,TRUE,,,,Test case С5,"28,57%"
+Test case С6,,TRUE,,,TRUE,TRUE,,,Test case С6,"42,86%"
+Test case С7,,TRUE,,,TRUE,TRUE,,,Test case С7,"42,86%"
+Test case С8,,TRUE,,,TRUE,TRUE,,,Test case С8,"42,86%"
+Test case С9,,TRUE,,,TRUE,TRUE,,,Test case С9,"42,86%"
+Test case С10,,TRUE,,TRUE,,TRUE,,,Test case С10,"42,86%"
+Test case С11,,TRUE,,,,,,,Test case С11,"14,29%"
+Test case С12,,TRUE,,,,,,,Test case С12,"14,29%"
+Test case С13,,TRUE,,TRUE,,TRUE,,,Test case С13,"42,86%"
+Test case С14,,TRUE,,,,,TRUE,,Test case С14,"28,57%"
+Total  test suites amount,16,,,,,,,,,
+Requirement сoverage by test suites,,"100,00%","12,50%","25,00%","68,75%","56,25%","18,75%","12,50%",,
