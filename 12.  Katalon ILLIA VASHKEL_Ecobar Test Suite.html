@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+	<title>ILLIA VASHKEL_Ecobar Test Suite</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">1. Valid login</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://ecobar.by/account/<datalist><option>https://ecobar.by/account/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//button[@type='button'])[2]<datalist><option>xpath=(//button[@type='button'])[2]</option><option>//div[@id='login_form']/div/div[2]/button</option><option>//div[2]/button</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=input-email<datalist><option>id=input-email</option><option>name=email</option><option>//input[@id='input-email']</option><option>//div[@id='login_form']/div[2]/div/div/input</option><option>//input</option><option>css=#input-email</option></datalist></td><td>joshua67@mail.ru</td>
+</tr>
+<tr><td>click</td><td>id=input-password<datalist><option>id=input-password</option><option>name=password</option><option>//input[@id='input-password']</option><option>//div[@id='login_form']/div[2]/div/div[2]/input</option><option>//div[2]/input</option><option>css=#input-password</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=input-password<datalist><option>id=input-password</option><option>name=password</option><option>//input[@id='input-password']</option><option>//div[@id='login_form']/div[2]/div/div[2]/input</option><option>//div[2]/input</option><option>css=#input-password</option></datalist></td><td>12345</td>
+</tr>
+<tr><td>click</td><td>xpath=(//button[@type='button'])[4]<datalist><option>xpath=(//button[@type='button'])[4]</option><option>//div[@id='login_form']/div[2]/div[2]/button</option><option>//div[2]/div[2]/button</option><option>css=button.send-button</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">2. Invalid pasword</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://ecobar.by/account/<datalist><option>https://ecobar.by/account/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//button[@type='button'])[2]<datalist><option>xpath=(//button[@type='button'])[2]</option><option>//div[@id='login_form']/div/div[2]/button</option><option>//div[2]/button</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=input-email<datalist><option>id=input-email</option><option>name=email</option><option>//input[@id='input-email']</option><option>//div[@id='login_form']/div[2]/div/div/input</option><option>//input</option><option>css=#input-email</option></datalist></td><td>joshua67@mail.ru</td>
+</tr>
+<tr><td>click</td><td>id=input-password<datalist><option>id=input-password</option><option>name=password</option><option>//input[@id='input-password']</option><option>//div[@id='login_form']/div[2]/div/div[2]/input</option><option>//div[2]/input</option><option>css=#input-password</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=input-password<datalist><option>id=input-password</option><option>name=password</option><option>//input[@id='input-password']</option><option>//div[@id='login_form']/div[2]/div/div[2]/input</option><option>//div[2]/input</option><option>css=#input-password</option></datalist></td><td>wrong</td>
+</tr>
+<tr><td>click</td><td>xpath=(//button[@type='button'])[4]<datalist><option>xpath=(//button[@type='button'])[4]</option><option>//div[@id='login_form']/div[2]/div[2]/button</option><option>//div[2]/div[2]/button</option><option>css=button.send-button</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">3. Search</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://ecobar.by/#/search/<datalist><option>https://ecobar.by/#/search/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//body<datalist><option>//body</option><option>css=body</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=q<datalist><option>id=q</option><option>name=q</option><option>//input[@id='q']</option><option>//form[@id='multi-form']/input</option><option>//div[5]/div/div/div/div/form/input</option><option>css=#q</option></datalist></td><td>хлеб</td>
+</tr>
+<tr><td>submit</td><td>id=multi-form<datalist><option>id=multi-form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[2]/div/div[2]/div/div/div/span<datalist><option>//div[2]/div/div[2]/div/div/div/span</option><option>css=div.multi-title &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyText</td><td>//div[2]/div/div[2]/div/div/div/span<datalist><option>//div[2]/div/div[2]/div/div/div/span</option><option>css=div.multi-title &gt; span</option></datalist></td><td>Хлеб, мучные изделия</td>
+</tr>
+<tr><td>click</td><td>//div[2]/div/a/span<datalist><option>//div[2]/div/a/span</option><option>css=div.multi-content &gt; a &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>id=product<datalist><option>id=product</option><option>//div[@id='product']</option><option>//form/div[2]</option><option>css=#product</option></datalist></td><td></td>
+</tr>
+<tr><td>verifyText</td><td>//div[@id='product']/div/div/h1<datalist><option>//div[@id='product']/div/div/h1</option><option>//h1</option><option>css=h1.catalogue__product-name</option></datalist></td><td>Хлеб пшенично-ржаной "Деревенский", 500 гр</td>
+</tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">4. Purchase</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://ecobar.by/#/search/<datalist><option>https://ecobar.by/#/search/</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//body<datalist><option>//body</option><option>css=body</option></datalist></td><td></td>
+</tr>
+<tr><td>type</td><td>id=q<datalist><option>id=q</option><option>name=q</option><option>//input[@id='q']</option><option>//form[@id='multi-form']/input</option><option>//div[5]/div/div/div/div/form/input</option><option>css=#q</option></datalist></td><td>молоко</td>
+</tr>
+<tr><td>submit</td><td>id=multi-form<datalist><option>id=multi-form</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[2]/div/a/span<datalist><option>//div[2]/div/a/span</option><option>css=div.multi-content &gt; a &gt; span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//button[@type='button'])[4]<datalist><option>xpath=(//button[@type='button'])[4]</option><option>//div[@id='product']/div[3]/div[3]/span[2]/button</option><option>//span[2]/button</option><option>css=button.btn.products-full-list__btn.js-btn-add-cart</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//li[2]/a/span<datalist><option>//li[2]/a/span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='mainContainer']/div/ul/li[2]/div/a/div/div/span/span<datalist><option>//div[@id='mainContainer']/div/ul/li[2]/div/a/div/div/span/span</option><option>//li[2]/div/a/div/div/span/span</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>css=span.plus.noselect &gt; svg<datalist><option>css=span.plus.noselect &gt; svg</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>xpath=(//button[@type='button'])[4]<datalist><option>xpath=(//button[@type='button'])[4]</option><option>//div[@id='product']/div[3]/div[3]/span[2]/button</option><option>//span[2]/button</option><option>css=button.btn.products-full-list__btn.js-btn-add-cart</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//span[@id='cart-total']/span<datalist><option>//span[@id='cart-total']/span</option><option>//a/span/span</option><option>css=span.actions-counter</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='content']/main/div/div[2]/div/div/button<datalist><option>//div[@id='content']/main/div/div[2]/div/div/button</option><option>//button</option><option>css=button.make_order.btn</option></datalist></td><td></td>
+</tr>
+<tr><td>click</td><td>//div[@id='content']/main/div/div/div[2]/div/div[4]/button<datalist><option>//div[@id='content']/main/div/div/div[2]/div/div[4]/button</option><option>//div[4]/button</option><option>css=button.make_order.btn</option></datalist></td><td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
